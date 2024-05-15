@@ -175,8 +175,4 @@ pyrightconfig.json
 
 # End of https://www.toptal.com/developers/gitignore/api/python
 
-# Ignore content on input and output directories
-input_files/
-output_files/
-
-progress.txt
+*.png
