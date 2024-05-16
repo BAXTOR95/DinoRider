@@ -4,15 +4,15 @@ DinoRider is a Python project that automates playing the Chrome Dino game using 
 
 ## Project Structure
 
-```
-DinoRider/
-├── dino_game/
-│   ├── __init__.py
-│   ├── game.py
-│   ├── bot.py
-│   ├── config.py
-└── main.py
-```
+    ```
+    DinoRider/
+    ├── dino_game/
+    │   ├── __init__.py
+    │   ├── game.py
+    │   ├── bot.py
+    │   ├── config.py
+    └── main.py
+    ```
 
 - **dino_game/**: Directory containing the main game and bot logic.
   - \***\*init**.py\*\*: Initializes the package.
@@ -33,16 +33,16 @@ DinoRider/
 
 1. Clone the repository:
 
-   ```bash
-   git clone https://github.com/BAXTOR95/DinoRider.git
-   cd DinoRider
-   ```
+        ```bash
+        git clone https://github.com/BAXTOR95/DinoRider.git
+        cd DinoRider
+        ```
 
 2. Install the required Python packages:
 
-   ```bash
-   pip install -r requirements.txt
-   ```
+        ```bash
+        pip install -r requirements.txt
+        ```
 
 3. Ensure that ChromeDriver is installed and added to your system PATH. You can download ChromeDriver from [here](https://sites.google.com/a/chromium.org/chromedriver/downloads).
 
@@ -50,9 +50,9 @@ DinoRider/
 
 1. Run the `main.py` script:
 
-   ```bash
-   python main.py
-   ```
+        ```bash
+        python main.py
+        ```
 
 2. The bot will automatically start the game and begin playing by detecting obstacles and performing actions to avoid them.
 
@@ -62,9 +62,9 @@ DinoRider/
 
 Defines the URL of the Chrome Dino game.
 
-```python
-GAME_URL = 'chrome://dino'
-```
+    ```python
+    GAME_URL = 'chrome://dino'
+    ```
 
 ### `game.py`
 
